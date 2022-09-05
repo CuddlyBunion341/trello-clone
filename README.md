@@ -1,72 +1,32 @@
-# Getting Started with Create React App
+# My-Trello
 
-// 13.10.2021
+My-Trello is a [trello](https://trello.com/?&aceid=&adposition=&adgroup=105703213408&campaign=9843285517&creative=437184392287&device=c&keyword=trello&matchtype=e&network=g&placement=&ds_kids=p53016482427&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gclid=EAIaIQobChMIw-ikw8T--QIVDo9oCR3kkgx_EAAYAiAAEgL4y_D_BwE&gclsrc=aw.ds) clone built with React and css. While it is lacking a back end, it utilizes the smooth-dnd library for better user experience and asthetics. This Project was started in the october of 2021.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Installation
+Because my-trello is built using react, the installation of node modules is neccesary.\
+Run the command `npm install` to install all dependencies and prepare the development environment.
 
-## Available Scripts
 
-In the project directory, you can run:
+### Running
+Using `npm start` the app runs in development mode.\
+By default use [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
+### Testing
+`npm test` launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Test coverage at the moment is a whopping 0%.
 
-### `npm run build`
+### Features
+- list creation
+- list renaming
+- list d&d
+- card creation
+- card d&d
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Planned Features
+- boards
+- card renaming
+- rich card contents
+- tags
+- local storage
+- user authentification
